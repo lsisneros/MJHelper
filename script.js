@@ -33,6 +33,8 @@ function shuffle() {
     //              tiles.sort();
 
     j = 0;
+	
+/*
     //                console.log("handE start:" + j );
     for (i = 0; i < 13; i++) {
         handE[i] = tiles[j];
@@ -53,7 +55,7 @@ function shuffle() {
     }
     next = j;
     reset = j;
-
+*/
 
     for (i = 0; i < 13; i++) {
         myHand[i] = tiles[j];
