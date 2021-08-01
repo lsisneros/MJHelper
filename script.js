@@ -33,8 +33,7 @@ function shuffle() {
     //              tiles.sort();
 
     j = 0;
-	
-/*
+    /*
     //                console.log("handE start:" + j );
     for (i = 0; i < 13; i++) {
         handE[i] = tiles[j];
@@ -53,7 +52,6 @@ function shuffle() {
         //                   console.log(tiles[j]);
         j++;
     }
-    
     */
     next = j;
     reset = j;
@@ -210,7 +208,7 @@ function getNextImage() {
     var image;
     var id;
     var tname;
- //   console.log("in getNextImage - next: " + next);
+    console.log("in getNextImage - next: " + next);
     for (i = 0; i < 13; i++) {
         tname = imageName[next];
         image = 'Tiles/' + imageName[next] + '.jpg';
