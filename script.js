@@ -55,13 +55,13 @@ function shuffle() {
     */
     next = j;
     reset = j;
-
+    
 
     for (i = 0; i < 13; i++) {
         myHand[i] = tiles[j];
         j++
     }
-
+    console.log("j:  " + j );
     //               console.log("After sort");    
     myHand.sort(function (a, b) { return a - b });
     for (i = 0; i < 152; i++) {
