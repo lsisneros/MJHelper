@@ -210,7 +210,7 @@ function getNextImage() {
     var image;
     var id;
     var tname;
-    console.log("in getNextImage - next: " + next);
+ //   console.log("in getNextImage - next: " + next);
     for (i = 0; i < 13; i++) {
         tname = imageName[next];
         image = 'Tiles/' + imageName[next] + '.jpg';
