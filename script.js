@@ -65,8 +65,8 @@ function shuffle() {
         j++
     }
     console.log("j:  " + j );
-    //               console.log("After sort");    
-    myHand.sort(function (a, b) { return a - b });
+    console.log("No sort");    
+    // myHand.sort(function (a, b) { return a - b });
     for (i = 0; i < 152; i++) {
         imageName[i] = getImage(tiles[i]);
         //                        console.log(getImage(hand[i]));
