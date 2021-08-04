@@ -33,6 +33,8 @@ function shuffle() {
     //              tiles.sort();
 
     j = 0;
+	
+    console.log("Changed 13 version.");
     /*
     //                console.log("handE start:" + j );
     for (i = 0; i < 13; i++) {
@@ -72,9 +74,9 @@ function shuffle() {
     }
 
     getNextImage()
-    {
+    
 
-    }
+    
 
 }
 
