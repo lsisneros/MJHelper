@@ -52,9 +52,10 @@ function shuffle() {
         //                   console.log(tiles[j]);
         j++;
     }
+ */   
     next = j;
     reset = j;
-*/
+
 
     for (i = 0; i < 13; i++) {
         myHand[i] = tiles[j];
